@@ -3,3 +3,4 @@ services:
     build: .
     volumes:
       - ./dev:/usr/dev
+    tty: true
