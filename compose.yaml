@@ -1,0 +1,5 @@
+services:
+  pubmed-python:
+    build: .
+    volumes:
+      - ./dev:/usr/dev
