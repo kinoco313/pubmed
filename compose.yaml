@@ -1,5 +1,5 @@
 services:
-  python:
+  pubmed-python:
     build: .
     volumes:
-      - work:.
+      - ./dev:/usr/dev
