@@ -55,6 +55,14 @@ def get_absts(pmid: str) -> str:
     return AbstractText
 
 def translate_abst(abst: str) -> str:
+    """アブストを日本語に要約する関数
+
+    Args:
+        abst (str): アブスト（原文）
+
+    Returns:
+        str: アブスト（日本語訳）
+    """
     auth_key = "your-api-key"
     translator = deepl.Translator(auth_key)
     result = translator.translate_text(abst, target_lang="JA")
