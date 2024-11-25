@@ -1,0 +1,247 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2024//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_240101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="Publisher" Owner="NLM">
+            <PMID Version="1">39580683</PMID>
+            <DateRevised>
+                <Year>2024</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </DateRevised>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Electronic">1615-9861</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <PubDate>
+                            <Year>2024</Year>
+                            <Month>Nov</Month>
+                            <Day>24</Day>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Proteomics</Title>
+                    <ISOAbbreviation>Proteomics</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>(Prote)omics for Superior Management of Kidney and Cardiovascular Disease-A Thought-Provoking Impulse From Nephrology.</ArticleTitle>
+                <Pagination>
+                    <StartPage>e202400143</StartPage>
+                    <MedlinePgn>e202400143</MedlinePgn>
+                </Pagination>
+                <ELocationID EIdType="doi" ValidYN="Y">10.1002/pmic.202400143</ELocationID>
+                <Abstract>
+                    <AbstractText>Chronic kidney disease (CKD) and cardiovascular disease (CVD) are complex conditions often managed by nephrologists. This viewpoint paper advocates for a multi-omics approach, integrating clinical symptom patterns, non-invasive biomarkers, imaging and invasive diagnostics to enhance diagnosis and treatment. Early detection of molecular changes, particularly in collagen turnover, is crucial for preventing disease progression. For instance, urinary proteomics can detect early molecular changes in diabetic kidney disease (DKD), heart failure (HF) and coronary artery disease (CAD), enabling proactive interventions and reducing the need for invasive procedures like renal biopsies. For example, urinary proteomic patterns can differentiate between glomerular and extraglomerular pathologies, aiding in the diagnosis of specific kidney diseases. Additionally, urinary peptides can predict CKD progression and HF development, offering a non-invasive alternative to traditional biomarkers like eGFR and NT-proBNP. The integration of multi-omics data with artificial intelligence (AI) holds promise for personalised treatment strategies, optimizing patient outcomes. This approach can also reduce healthcare costs by minimizing unnecessary invasive procedures and hospitalizations. In conclusion, the adoption of multi-omics and non-invasive biomarkers in nephrology and cardiology can revolutionize disease management, enabling early detection, personalised treatment and improved patient outcomes.</AbstractText>
+                    <CopyrightInformation>&#xa9; 2024 Wiley&#x2010;VCH GmbH.</CopyrightInformation>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Beige</LastName>
+                        <ForeName>Joachim</ForeName>
+                        <Initials>J</Initials>
+                        <Identifier Source="ORCID">0000-0002-1907-825X</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>Medical Headquarter, Kuratorium for Dialysis and Transplantation, Neu-Isenburg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Medical Clinic 2, Martin-Luther-University Halle/Wittenberg, Halle, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Masanneck</LastName>
+                        <ForeName>Michael</ForeName>
+                        <Initials>M</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Medical Headquarter, Kuratorium for Dialysis and Transplantation, Neu-Isenburg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Apollon College of Applied Health Care, Oldenburg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2024</Year>
+                    <Month>11</Month>
+                    <Day>24</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>Germany</Country>
+                <MedlineTA>Proteomics</MedlineTA>
+                <NlmUniqueID>101092707</NlmUniqueID>
+                <ISSNLinking>1615-9853</ISSNLinking>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+            <KeywordList Owner="NOTNLM">
+                <Keyword MajorTopicYN="N">cardiovascular disease</Keyword>
+                <Keyword MajorTopicYN="N">chronic kidney disease</Keyword>
+                <Keyword MajorTopicYN="N">differential diagnosis</Keyword>
+                <Keyword MajorTopicYN="N">glomerular disease</Keyword>
+            </KeywordList>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2024</Year>
+                    <Month>11</Month>
+                    <Day>25</Day>
+                    <Hour>1</Hour>
+                    <Minute>10</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2024</Year>
+                    <Month>11</Month>
+                    <Day>25</Day>
+                    <Hour>1</Hour>
+                    <Minute>10</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="revised">
+                    <Year>2024</Year>
+                    <Month>10</Month>
+                    <Day>7</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="received">
+                    <Year>2024</Year>
+                    <Month>8</Month>
+                    <Day>30</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="accepted">
+                    <Year>2024</Year>
+                    <Month>10</Month>
+                    <Day>8</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2024</Year>
+                    <Month>11</Month>
+                    <Day>24</Day>
+                    <Hour>8</Hour>
+                    <Minute>33</Minute>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>aheadofprint</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">39580683</ArticleId>
+                <ArticleId IdType="doi">10.1002/pmic.202400143</ArticleId>
+            </ArticleIdList>
+            <ReferenceList>
+                <Title>References</Title>
+                <Reference>
+                    <Citation>N. Tofte, M. Lindhardt, K. Adamova, et&#xa0;al., &#x201c;Early Detection of Diabetic Kidney Disease by Urinary Proteomics and Subsequent Intervention With Spironolactone to Delay Progression (PRIORITY): A Prospective Observational Study and Embedded Randomised Placebo&#x2010;Controlled Trial,&#x201d; Lancet Diabetes &amp; Endocrinology 8, no. 4 (2020): 301&#x2013;312, https://linkinghub.elsevier.com/retrieve/pii/S2213858720300267.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>T. He, M. Mischak, A. L. Clark, et&#xa0;al., &#x201c;Urinary Peptides in Heart Failure: A Link to Molecular Pathophysiology,&#x201d; European Journal of Heart Failure 23 (2021): 1875&#x2013;1887.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Z.&#x2010;Y. Zhang, S. Ravassa, E. Nkuipou&#x2010;Kenfack, et&#xa0;al., &#x201c;Novel Urinary Peptidomic Classifier Predicts Incident Heart Failure,&#x201d; Journal of the American Heart Association 6 (2017): e005432.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>D. Wei, J. D. Melgarejo, L. Van Aelst, et&#xa0;al., &#x201c;Prediction of Coronary Artery Disease Using Urinary Proteomics,&#x201d; European Journal of Preventive Cardiology 30 (2023): 1537&#x2013;1546.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>D. M. Good, P. Z&#xfc;rbig, A. Argil&#xe9;s, et&#xa0;al., &#x201c;Naturally Occurring Human Urinary Peptides for Use in Diagnosis of Chronic Kidney Disease,&#x201d; Molecular &amp; Cellular Proteomics 9 (2010): 2424&#x2013;2437.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>A. S. Bannaga, J. Metzger, I. Kyrou, et&#xa0;al., &#x201c;Discovery, Validation and Sequencing of Urinary Peptides for Diagnosis of Liver Fibrosis&#x2014;A Multicentre Study,&#x201d; EBioMedicine 62 (2020): 103083.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>L. Catanese, J. Siwy, E. Mavrogeorgis, et&#xa0;al., &#x201c;A Novel Urinary Proteomics Classifier for Non&#x2010;Invasive Evaluation of Interstitial Fibrosis and Tubular Atrophy in Chronic Kidney Disease,&#x201d; Proteomes 9 (2021): 32.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>T. He, J. D. Melgarejo, A. L. Clark, et&#xa0;al., &#x201c;Serum and Urinary Biomarkers of Collagen Type&#x2010;I Turnover Predict Prognosis in Patients With Heart Failure,&#x201d; Clinical and Translational Medicine 11 (2021): e267.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>T. S. Ahluwalia, T. K. E. R&#xf6;nkk&#xf6;, M. K. Eickhoff, et&#xa0;al., &#x201c;Randomized Trial of SGLT2 Inhibitor Identifies Target Proteins in Diabetic Kidney Disease,&#x201d; Kidney International Reports 9 (2024): 334&#x2013;346.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>T. E. Long, O. S. Indridason, R. Palsson, et&#xa0;al., &#x201c;Defining New Reference Intervals for Serum Free Light Chains in Individuals With Chronic Kidney Disease: Results of the iStopMM Study,&#x201d; Blood Cancer Journal 12 (2022): 133.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>E. Hoxha, L. Reinhard, and R. A. K. Stahl, &#x201c;Membranous Nephropathy: New Pathogenic Mechanisms and Their Clinical Implications,&#x201d; Nature Reviews Nephrology 18 (2022): 466&#x2013;478.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>E. B. Caparali, V. De Gregorio, and M. Barua, &#x201c;Genetic Causes of Nephrotic Syndrome and Focal and Segmental Glomerulosclerosis,&#x201d; Advances in Kidney Disease and Health 31 (2024): 309&#x2013;316.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>F. E. Hengel, S. Dehde, M. Lass&#xe9;, et&#xa0;al., &#x201c;Autoantibodies Targeting Nephrin in Podocytopathies,&#x201d; New England Journal of Medicine 391, no. 5 (2024): 422&#x2013;433.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>J. Siwy, P. Z&#xfc;rbig, A. Argiles, et&#xa0;al., &#x201c;Noninvasive Diagnosis of Chronic Kidney Diseases Using Urinary Proteome Analysis,&#x201d; Nephrology, Dialysis, Transplantation 32 (2017): 2079&#x2013;2089.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>M. Rudnicki, J. Siwy, R. Wendt, et&#xa0;al., &#x201c;Urine Proteomics for Prediction of Disease Progression in Patients With IgA Nephropathy,&#x201d; Nephrology, Dialysis, Transplantation 37 (2021): 42&#x2013;52.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>J. Savige, F. Ariani, F. Mari, et&#xa0;al., &#x201c;Expert Consensus Guidelines for the Genetic Diagnosis of Alport Syndrome,&#x201d; Pediatric Nephrology 34 (2019): 1175&#x2013;1189.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>M. A. Jaimes Campos, E. Mavrogeorgis, A. Latosinska, et&#xa0;al., &#x201c;Urinary Peptide Analysis to Predict the Response to Blood Pressure Medication,&#x201d; Nephrology, Dialysis, Transplantation 39 (2024): 873&#x2013;883.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>P. Magalh&#xe3;es, M. Pejchinovski, K. Markoska, et&#xa0;al., &#x201c;Association of Kidney Fibrosis With Urinary Peptides: A Path towards Non&#x2010;Invasive Liquid Biopsies?,&#x201d; Scientific Reports 7 (2017): 16915.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>E. Mavrogeorgis, T. He, H. Mischak, et&#xa0;al., &#x201c;Urinary Peptidomic Liquid Biopsy for Non&#x2010;Invasive Differential Diagnosis of Chronic Kidney Disease,&#x201d; Nephrology, Dialysis, Transplantation 39 (2024): 453&#x2013;462.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>B. Peters, J. Beige, J. Siwy, et&#xa0;al., &#x201c;Dynamics of Urine Proteomics Biomarker and Disease Progression in Patients With IgA Nephropathy,&#x201d; Nephrology Dialysis Transplantation 38 (2023): 2826&#x2013;2834.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>P. F. Zipfel, C. Skerka, Q. Chen, et&#xa0;al., &#x201c;The Role of Complement in C3 Glomerulopathy,&#x201d; Molecular Immunology 67 (2015): 21&#x2013;30.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>R. Wendt, J. Siwy, T. He, et&#xa0;al., &#x201c;Molecular Mapping of Urinary Complement Peptides in Kidney Diseases,&#x201d; Proteomes 9, no. 4 (2021): 49.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>D. S. Siscovick, L. G. Ekelund, J. L. Johnson, Y. Truong, and A. Adler, &#x201c;Sensitivity of Exercise Electrocardiography for Acute Cardiac Events During Moderate and Strenuous Physical Activity. The Lipid Research Clinics Coronary Primary Prevention Trial,&#x201d; Archives of Internal Medicine 151 (1991): 325&#x2013;330.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>SCORE2 Working Group and ESC Cardiovascular Risk Collaboration. &#x201c;SCORE2 Risk Prediction Algorithms: New Models to Estimate 10&#x2010;Year Risk of Cardiovascular Disease in Europe,&#x201d; European Heart Journal 42 (2021): 2439&#x2013;2454.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>SCORE2&#x2010;OP Working Group and ESC Cardiovascular Risk Collaboration. &#x201c;SCORE2&#x2010;OP Risk Prediction Algorithms: Estimating Incident Cardiovascular Event Risk in Older Persons in Four Geographical Risk Regions,&#x201d; European Heart Journal 42 (2021): 2455&#x2013;2467.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>C. Delles, E. Schiffer, C. von Zur Muhlen, et&#xa0;al., &#x201c;Urinary Proteomic Diagnosis of Coronary Artery Disease: Identification and Clinical Validation in 623 Individuals,&#x201d; Journal of Hypertension 28 (2010): 2316&#x2013;2322.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>U. Neisius, T. Koeck, H. Mischak, et&#xa0;al., &#x201c;Urine Proteomics in the Diagnosis of Stable Angina,&#x201d; BMC Cardiovascular Disorders [Electronic Resource] 16 (2016): 70.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Z. Zhang, J. A. Staessen, L. Thijs, et&#xa0;al., &#x201c;Left Ventricular Diastolic Function in Relation to the Urinary Proteome: A Proof&#x2010;of&#x2010;Concept Study in a General Population,&#x201d; International Journal of Cardiology 176 (2014): 158&#x2013;165.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Z.&#x2010;Y. Zhang, L. Thijs, T. Petit, et&#xa0;al., &#x201c;Urinary Proteome and Systolic Blood Pressure as Predictors of 5&#x2010;Year Cardiovascular and Cardiac Outcomes in a General Population,&#x201d; Hypertension 66 (2015): 52&#x2013;60.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Authors/Task Force Members. T. A. McDonagh, M. Metra, M. Adamo, et&#xa0;al., &#x201c;2023 Focused Update of the 2021 ESC Guidelines for the Diagnosis and Treatment of Acute and Chronic Heart Failure: Developed by the Task Force for the Diagnosis and Treatment of Acute and Chronic Heart Failure of the European Society of Cardiology (ESC) With the Special Contribution of the Heart Failure Association (HFA) of the ESC,&#x201d; European Journal of Heart Failure 26 (2024): 5&#x2013;17.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>T. A. McDonagh, M. Metra, M. Adamo, et&#xa0;al., &#x201c;2021 ESC Guidelines for the Diagnosis and Treatment of Acute and Chronic Heart Failure,&#x201d; European Heart Journal 42 (2021): 3599&#x2013;3726.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>J. J. V. McMurray and M. Packer, &#x201c;How Should We Sequence the Treatments for Heart Failure and a Reduced Ejection Fraction?: A Redefinition of Evidence&#x2010;Based Medicine,&#x201d; Circulation 143 (2021): 875&#x2013;877.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>C. S. P. Lam, K. F. Docherty, J. E. Ho, J. J. V. McMurray, P. L. Myhre, and T. Omland, &#x201c;Recent Successes in Heart Failure Treatment,&#x201d; Nature Medicine 29 (2023): 2424&#x2013;2437.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Y. Wu, H. Wang, Z. Li, et&#xa0;al., &#x201c;Subtypes Identification on Heart Failure With Preserved Ejection Fraction via Network Enhancement Fusion Using Multi&#x2010;Omics Data,&#x201d; Computational and Structural Biotechnology Journal 19 (2021): 1567&#x2013;1578.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>M. A. Jaimes Campos, I. And&#xfa;jar, F. Keller, et&#xa0;al., &#x201c;Prognosis and Personalized In Silico Prediction of Treatment Efficacy in Cardiovascular and Chronic Kidney Disease: A Proof&#x2010;of&#x2010;Concept Study,&#x201d; Pharmaceuticals (Basel) 16 (2023): 1298.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>A. J. Buckler, D. Marlevi, N. T. Skenteris, et&#xa0;al., &#x201c;In Silico Model of Atherosclerosis With Individual Patient Calibration to Enable Precision Medicine for Cardiovascular Disease,&#x201d; Computers in Biology and Medicine 152 (2023): 106364.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>J. Powell and X. Li, &#x201c;Integrated, Data&#x2010;Driven Health Management: A Step Closer to Personalized and Predictive Healthcare,&#x201d; Cell Systems 13 (2022): 201&#x2013;203.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>F. Marabita, T. James, A. Karhu, et&#xa0;al., &#x201c;Multiomics and Digital Monitoring During Lifestyle Changes Reveal Independent Dimensions of human Biology and Health,&#x201d; Cell Systems 13 (2022): 241&#x2013;255.e7.</Citation>
+                </Reference>
+            </ReferenceList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>
