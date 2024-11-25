@@ -1,13 +1,15 @@
 from Bio import Entrez
 import xml.etree.ElementTree as ET
+import deepl
 
 Entrez.email = "example@gmail.com"
 
 def main():
     keyword = '((CVD) AND (egfr) AND ((slope) OR (change) OR (decline) OR (increase)) ) NOT (surrogate)'
-    record = get_article_pmids(keyword,max_results=10000)
-    result = get_absts(record[0])
-    print(result)
+    pmids = get_article_pmids(keyword,max_results=10000)
+    abst = get_absts(pmids[0])
+    translated = translate_abst(abst)
+    print(translated)
     
     # xmlの構造を見てみたい
     # with open('test_result.xml', 'wb') as f:
@@ -51,6 +53,12 @@ def get_absts(pmid: str) -> str:
     )
         
     return AbstractText
+
+def translate_abst(abst: str) -> str:
+    auth_key = "your-api-key"
+    translator = deepl.Translator(auth_key)
+    result = translator.translate_text(abst, target_lang="JA")
+    return result.text
 
 
 if __name__ == "__main__":
