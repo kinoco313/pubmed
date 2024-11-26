@@ -1,5 +1,5 @@
 services:
-  pubmed-python:
+  evidence-table:
     build: .
     volumes:
       - ./dev:/usr/dev
