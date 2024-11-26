@@ -7,9 +7,10 @@ from openpyxl.styles import Alignment
 Entrez.email = "example@gmail.com"
 
 def main():
+        
     # キーワードからPMIDを取得
     keyword = '((New England Journal of Medicine[Journal] OR BMJ[Journal] OR The Lancet[Journal] OR JAMA[Journal] OR Annals of Internal Medicine[Journal] OR Kidney International[Journal] OR Journal of the American Society of Nephrology[Journal] OR American Journal of Kidney Diseases[Journal] OR Clinical Journal of the American Society of Nephrology[Journal] OR Nephrology Dialysis Transplantation[Journal])) AND (((CVD) AND (egfr) AND ((slope) OR (change) OR (decline) OR (increase)) ) NOT (surrogate))'
-    max_results: int = 10 # ワークシートの行数に使いたいので変数にしておく
+    max_results: int = 30 # ワークシートの行数に使いたいので変数にしておく
     pmids = search_pmids(keyword,max_results)
     
     # ワークブックを開き、ワークシートをアクティベートする
@@ -30,9 +31,10 @@ def main():
         jounal_title = extract_journal_title(root)
         pub_year = extract_pubdate(root)
         abst_en = extract_abst(root)
+        abst_ja = translate_into_ja(abst_en)
         
         # evid_tableに追加
-        ws.append([pmid, articule_title, jounal_title, pub_year, abst_en])
+        ws.append([pmid, articule_title, jounal_title, pub_year, abst_en, abst_ja])
         
     # 上下中央揃え、左揃え、折り返して全体を表示
     alignment = Alignment(horizontal="left", vertical="center", wrap_text=True)
@@ -41,7 +43,7 @@ def main():
             cell.alignment = alignment
     
     # 列幅を指定
-    column_width = {"A":10, "B":50, "C":50, "D":10, "E":200}
+    column_width = {"A":10, "B":50, "C":50, "D":10, "E":200, "F":200}
     for column, width in column_width.items():
             ws.column_dimensions[column].width = width
     
@@ -187,12 +189,15 @@ def translate_into_ja(abst: str) -> str:
     Returns:
         str: アブスト（日本語訳）
     """
-    auth_key = "your-api-key"
+    
+    # DeepLのAPIkeyを取得しておく
+    with open("apikey.txt") as f:
+        api_key = f.readline()
+    
+    auth_key = api_key
     translator = deepl.Translator(auth_key)
     result = translator.translate_text(abst, target_lang="JA")
     return result.text
-
-
 
 
 if __name__ == "__main__":
