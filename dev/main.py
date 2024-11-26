@@ -1,21 +1,53 @@
 from Bio import Entrez
 import xml.etree.ElementTree as ET
 import deepl
-
+from openpyxl import Workbook
+from openpyxl.styles import Alignment
 
 Entrez.email = "example@gmail.com"
 
 def main():
+    # キーワードからPMIDを取得
     keyword = '((New England Journal of Medicine[Journal] OR BMJ[Journal] OR The Lancet[Journal] OR JAMA[Journal] OR Annals of Internal Medicine[Journal] OR Kidney International[Journal] OR Journal of the American Society of Nephrology[Journal] OR American Journal of Kidney Diseases[Journal] OR Clinical Journal of the American Society of Nephrology[Journal] OR Nephrology Dialysis Transplantation[Journal])) AND (((CVD) AND (egfr) AND ((slope) OR (change) OR (decline) OR (increase)) ) NOT (surrogate))'
-    pmids = search_pmids(keyword,max_results=10000)
-    root = fetch_article(pmid=pmids[10])
-    articule_title = extract_article_title(root)
-    jounal_title = extract_journal_title(root)
-    pub_year = extract_pubdate(root)
-    abst = extract_abst(root)
+    max_results: int = 10 # ワークシートの行数に使いたいので変数にしておく
+    pmids = search_pmids(keyword,max_results)
     
-    print(pub_year,articule_title, jounal_title)
-    print(abst)
+    # ワークブックを開き、ワークシートをアクティベートする
+    wb = Workbook()
+    ws = wb.active
+    
+    # 1行目に項目名を記述する
+    ws.append(["PMID", "Title", "Jounal", "PubYear", "Abst_en"]) # 後でAbst_jaも追加予定
+    
+    # forループで各情報を追加していく
+    for pmid in pmids:
+        
+        # 情報源(XML)
+        root = fetch_article(pmid)
+        
+        # 各情報
+        articule_title = extract_article_title(root)
+        jounal_title = extract_journal_title(root)
+        pub_year = extract_pubdate(root)
+        abst_en = extract_abst(root)
+        
+        # evid_tableに追加
+        ws.append([pmid, articule_title, jounal_title, pub_year, abst_en])
+        
+    # 上下中央揃え、左揃え、折り返して全体を表示
+    alignment = Alignment(horizontal="left", vertical="center", wrap_text=True)
+    for row in ws.iter_rows(min_row=1, min_col=1, max_row=max_results+1, max_col=6):
+        for cell in row:
+            cell.alignment = alignment
+    
+    # 列幅を指定
+    column_width = {"A":10, "B":50, "C":50, "D":10, "E":200}
+    for column, width in column_width.items():
+            ws.column_dimensions[column].width = width
+    
+    # ワークブックを保存
+    wb.save("test.xlsx")
+    
     
 
 def search_pmids(keyword: str, max_results: int=10) -> list[str]:
