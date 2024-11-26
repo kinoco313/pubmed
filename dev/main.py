@@ -6,8 +6,8 @@ Entrez.email = "example@gmail.com"
 
 def main():
     keyword = '((CVD) AND (egfr) AND ((slope) OR (change) OR (decline) OR (increase)) ) NOT (surrogate)'
-    pmids = get_article_pmids(keyword,max_results=10000)
-    abst = get_absts(pmids[0])
+    pmids = fetch_article_pmids(keyword,max_results=10000)
+    abst = extract_abst(pmids[0])
     translated = translate_abst(abst)
     print(translated)
     
@@ -15,7 +15,7 @@ def main():
     # with open('test_result.xml', 'wb') as f:
     #     f.write(result)
 
-def get_article_pmids(keyword: str, max_results: int=10) -> list[str]:
+def fetch_article_pmids(keyword: str, max_results: int=10) -> list[str]:
     """キーワードに関連する論文のPMIDを取得する関数
 
     Args:
@@ -30,7 +30,7 @@ def get_article_pmids(keyword: str, max_results: int=10) -> list[str]:
     return record['IdList']
 
 
-def get_absts(pmid: str) -> str:
+def extract_abst(pmid: str) -> str:
     """論文のアブストを取得する関数
 
     Args:
