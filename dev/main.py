@@ -11,8 +11,9 @@ def main():
     pmids = search_pmids(keyword,max_results=10000)
     root = fetch_article(pmid=pmids[0])
     articule_title = extract_article_title(root)
+    jounal_title = extract_journal_title(root)
     
-    print(articule_title)
+    print(articule_title, jounal_title)
     
 
 def search_pmids(keyword: str, max_results: int=10) -> list[str]:
@@ -70,6 +71,28 @@ def extract_article_title(root: ET.Element) -> str:
     )
     
     return ArticleTitle
+
+def extract_journal_title(root: ET.Element) -> str:
+    """雑誌のタイトルを抽出する関数
+
+    Args:
+        root (ET.Element): XML形式データの根要素
+
+    Returns:
+        str: 雑誌のタイトル
+    """
+    
+    Title = (
+        root
+        .find("PubmedArticle")
+        .find("MedlineCitation")
+        .find("Article")
+        .find("Journal")
+        .find("Title")
+        .text
+    )
+    
+    return Title
     
 
 def extract_abst(root: ET.Element) -> str:
