@@ -2,244 +2,724 @@
 <!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2024//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_240101.dtd">
 <PubmedArticleSet>
     <PubmedArticle>
-        <MedlineCitation Status="Publisher" Owner="NLM">
-            <PMID Version="1">39580683</PMID>
+        <MedlineCitation Status="MEDLINE" Owner="NLM">
+            <PMID Version="1">30545708</PMID>
+            <DateCompleted>
+                <Year>2019</Year>
+                <Month>12</Month>
+                <Day>26</Day>
+            </DateCompleted>
             <DateRevised>
                 <Year>2024</Year>
-                <Month>11</Month>
-                <Day>24</Day>
+                <Month>06</Month>
+                <Day>07</Day>
             </DateRevised>
             <Article PubModel="Print-Electronic">
                 <Journal>
-                    <ISSN IssnType="Electronic">1615-9861</ISSN>
+                    <ISSN IssnType="Electronic">1523-6838</ISSN>
                     <JournalIssue CitedMedium="Internet">
+                        <Volume>73</Volume>
+                        <Issue>3</Issue>
                         <PubDate>
-                            <Year>2024</Year>
-                            <Month>Nov</Month>
-                            <Day>24</Day>
+                            <Year>2019</Year>
+                            <Month>Mar</Month>
                         </PubDate>
                     </JournalIssue>
-                    <Title>Proteomics</Title>
-                    <ISOAbbreviation>Proteomics</ISOAbbreviation>
+                    <Title>American journal of kidney diseases : the official journal of the National Kidney Foundation</Title>
+                    <ISOAbbreviation>Am J Kidney Dis</ISOAbbreviation>
                 </Journal>
-                <ArticleTitle>(Prote)omics for Superior Management of Kidney and Cardiovascular Disease-A Thought-Provoking Impulse From Nephrology.</ArticleTitle>
+                <ArticleTitle>Use of Measures of Inflammation and Kidney Function for Prediction of Atherosclerotic Vascular Disease Events and Death in Patients With CKD: Findings From the CRIC Study.</ArticleTitle>
                 <Pagination>
-                    <StartPage>e202400143</StartPage>
-                    <MedlinePgn>e202400143</MedlinePgn>
+                    <StartPage>344</StartPage>
+                    <EndPage>353</EndPage>
+                    <MedlinePgn>344-353</MedlinePgn>
                 </Pagination>
-                <ELocationID EIdType="doi" ValidYN="Y">10.1002/pmic.202400143</ELocationID>
+                <ELocationID EIdType="doi" ValidYN="Y">10.1053/j.ajkd.2018.09.012</ELocationID>
+                <ELocationID EIdType="pii" ValidYN="Y">S0272-6386(18)31039-4</ELocationID>
                 <Abstract>
-                    <AbstractText>Chronic kidney disease (CKD) and cardiovascular disease (CVD) are complex conditions often managed by nephrologists. This viewpoint paper advocates for a multi-omics approach, integrating clinical symptom patterns, non-invasive biomarkers, imaging and invasive diagnostics to enhance diagnosis and treatment. Early detection of molecular changes, particularly in collagen turnover, is crucial for preventing disease progression. For instance, urinary proteomics can detect early molecular changes in diabetic kidney disease (DKD), heart failure (HF) and coronary artery disease (CAD), enabling proactive interventions and reducing the need for invasive procedures like renal biopsies. For example, urinary proteomic patterns can differentiate between glomerular and extraglomerular pathologies, aiding in the diagnosis of specific kidney diseases. Additionally, urinary peptides can predict CKD progression and HF development, offering a non-invasive alternative to traditional biomarkers like eGFR and NT-proBNP. The integration of multi-omics data with artificial intelligence (AI) holds promise for personalised treatment strategies, optimizing patient outcomes. This approach can also reduce healthcare costs by minimizing unnecessary invasive procedures and hospitalizations. In conclusion, the adoption of multi-omics and non-invasive biomarkers in nephrology and cardiology can revolutionize disease management, enabling early detection, personalised treatment and improved patient outcomes.</AbstractText>
-                    <CopyrightInformation>&#xa9; 2024 Wiley&#x2010;VCH GmbH.</CopyrightInformation>
+                    <AbstractText Label="RATIONALE &amp; OBJECTIVE">Traditional risk estimates for atherosclerotic vascular disease (ASVD) and death may not perform optimally in the setting of chronic kidney disease (CKD). We sought to determine whether the addition of measures of inflammation and kidney function to traditional estimation tools improves prediction of these events in a diverse cohort of patients with CKD.</AbstractText>
+                    <AbstractText Label="STUDY DESIGN">Observational cohort study.</AbstractText>
+                    <AbstractText Label="SETTING &amp; PARTICIPANTS">2,399 Chronic Renal Insufficiency Cohort (CRIC) Study participants without a history of cardiovascular disease at study entry.</AbstractText>
+                    <AbstractText Label="PREDICTORS">Baseline plasma levels of biomarkers of inflammation (interleukin 1&#x3b2; [IL-1&#x3b2;], IL-1 receptor antagonist, IL-6, tumor necrosis factor &#x3b1; [TNF-&#x3b1;], transforming growth factor &#x3b2;, high-sensitivity C-reactive protein, fibrinogen, and serum albumin), measures of kidney function (estimated glomerular filtration rate [eGFR] and albuminuria), and the Pooled Cohort Equation probability (PCEP) estimate.</AbstractText>
+                    <AbstractText Label="OUTCOMES">Composite of ASVD events (incident myocardial infarction, peripheral arterial disease, and stroke) and death.</AbstractText>
+                    <AbstractText Label="ANALYTICAL APPROACH">Cox proportional hazard models adjusted for PCEP estimates, albuminuria, and eGFR.</AbstractText>
+                    <AbstractText Label="RESULTS">During a median follow-up of 7.3 years, 86, 61, 48, and 323 participants experienced myocardial infarction, peripheral arterial disease, stroke, or death, respectively. The 1-decile greater levels of IL-6 (adjusted HR [aHR], 1.12; 95% CI, 1.08-1.16; P&lt;0.001), TNF-&#x3b1; (aHR, 1.09; 95% CI, 1.05-1.13; P&lt;0.001), fibrinogen (aHR, 1.07; 95% CI, 1.03-1.11; P&lt;0.001), and serum albumin (aHR, 0.96; 95% CI, 0.93-0.99; P&lt;0.002) were independently associated with the composite ASVD-death outcome. A composite inflammation score (CIS) incorporating these 4 biomarkers was associated with a graded increase in risk for the composite outcome. The incidence of ASVD-death increased across the quintiles of risk derived from PCEP, kidney function, and CIS. The addition of eGFR, albuminuria, and CIS to PCEP improved (P=0.003) the area under the receiver operating characteristic curve for the composite outcome from 0.68 (95% CI, 0.66-0.71) to 0.73 (95% CI, 0.71-0.76).</AbstractText>
+                    <AbstractText Label="LIMITATIONS">Data for cardiovascular death were not available.</AbstractText>
+                    <AbstractText Label="CONCLUSIONS">Biomarkers of inflammation and measures of kidney function are independently associated with incident ASVD events and death in patients with CKD. Traditional cardiovascular risk estimates could be improved by adding markers of inflammation and measures of kidney function.</AbstractText>
+                    <CopyrightInformation>Copyright &#xa9; 2018 The Authors. Published by Elsevier Inc. All rights reserved.</CopyrightInformation>
                 </Abstract>
                 <AuthorList CompleteYN="Y">
                     <Author ValidYN="Y">
-                        <LastName>Beige</LastName>
-                        <ForeName>Joachim</ForeName>
-                        <Initials>J</Initials>
-                        <Identifier Source="ORCID">0000-0002-1907-825X</Identifier>
+                        <LastName>Amdur</LastName>
+                        <ForeName>Richard L</ForeName>
+                        <Initials>RL</Initials>
                         <AffiliationInfo>
-                            <Affiliation>Medical Headquarter, Kuratorium for Dialysis and Transplantation, Neu-Isenburg, Germany.</Affiliation>
-                        </AffiliationInfo>
-                        <AffiliationInfo>
-                            <Affiliation>Medical Clinic 2, Martin-Luther-University Halle/Wittenberg, Halle, Germany.</Affiliation>
+                            <Affiliation>Department of Surgery, George Washington University, Washington, DC.</Affiliation>
                         </AffiliationInfo>
                     </Author>
                     <Author ValidYN="Y">
-                        <LastName>Masanneck</LastName>
-                        <ForeName>Michael</ForeName>
+                        <LastName>Feldman</LastName>
+                        <ForeName>Harold I</ForeName>
+                        <Initials>HI</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Renal Electrolyte and Hypertension Division, University of Pennsylvania, PA; Center for Clinical Epidemiology and Biostatistics, Perelman School of Medicine at the University of Pennsylvania, PA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Dominic</LastName>
+                        <ForeName>Elizabeth A</ForeName>
+                        <Initials>EA</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Georgetown University School of Medicine, Washington, DC.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Anderson</LastName>
+                        <ForeName>Amanda H</ForeName>
+                        <Initials>AH</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Center for Clinical Epidemiology and Biostatistics, Perelman School of Medicine at the University of Pennsylvania, PA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Beddhu</LastName>
+                        <ForeName>Srinivasan</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Nephrology, University of Utah School of Medicine, Salt Lake City, UT.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Rahman</LastName>
+                        <ForeName>Mahboob</ForeName>
                         <Initials>M</Initials>
                         <AffiliationInfo>
-                            <Affiliation>Medical Headquarter, Kuratorium for Dialysis and Transplantation, Neu-Isenburg, Germany.</Affiliation>
+                            <Affiliation>Division of Nephrology and Hypertension, Case Western Reserve University, OH.</Affiliation>
                         </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Wolf</LastName>
+                        <ForeName>Myles</ForeName>
+                        <Initials>M</Initials>
                         <AffiliationInfo>
-                            <Affiliation>Apollon College of Applied Health Care, Oldenburg, Germany.</Affiliation>
+                            <Affiliation>Division of Nephrology, Duke University, Durham, NC.</Affiliation>
                         </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Reilly</LastName>
+                        <ForeName>Muredach</ForeName>
+                        <Initials>M</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Cardiology Division, Department of Medicine and the Irving Institute for Clinical and Translational Research, Columbia University College of Physician and Surgeon, New York, NY.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Ojo</LastName>
+                        <ForeName>Akinlolu</ForeName>
+                        <Initials>A</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>University of Arizona School of Medicine, Tucson, AZ.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Townsend</LastName>
+                        <ForeName>Raymond R</ForeName>
+                        <Initials>RR</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Renal Electrolyte and Hypertension Division, University of Pennsylvania, PA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Go</LastName>
+                        <ForeName>Alan S</ForeName>
+                        <Initials>AS</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Kaiser Permanente Division of Research, Oakland, CA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>He</LastName>
+                        <ForeName>Jiang</ForeName>
+                        <Initials>J</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Epidemiology, Tulane University, LA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Xie</LastName>
+                        <ForeName>Dawei</ForeName>
+                        <Initials>D</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Center for Clinical Epidemiology and Biostatistics, Perelman School of Medicine at the University of Pennsylvania, PA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Thompson</LastName>
+                        <ForeName>Sally</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Center for Clinical Epidemiology and Biostatistics, Perelman School of Medicine at the University of Pennsylvania, PA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Budoff</LastName>
+                        <ForeName>Matthew</ForeName>
+                        <Initials>M</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Cardiology, Los Angeles Biomedical Research Institute at Harbor-UCLA, Torrance, CA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Kasner</LastName>
+                        <ForeName>Scott</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Vascular Neurology, University of Pennsylvania, PA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Kimmel</LastName>
+                        <ForeName>Paul L</ForeName>
+                        <Initials>PL</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Kidney Urologic and Hematologic Diseases, National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, MD.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Kusek</LastName>
+                        <ForeName>John W</ForeName>
+                        <Initials>JW</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Kidney Urologic and Hematologic Diseases, National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, MD.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Raj</LastName>
+                        <ForeName>Dominic S</ForeName>
+                        <Initials>DS</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Kidney Diseases and Hypertension, George Washington University, Washington, DC. Electronic address: draj@mfa.gwu.edu.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <CollectiveName>CRIC Study Investigators</CollectiveName>
                     </Author>
                 </AuthorList>
                 <Language>eng</Language>
+                <GrantList CompleteYN="Y">
+                    <Grant>
+                        <GrantID>UL1 TR002548</GrantID>
+                        <Acronym>TR</Acronym>
+                        <Agency>NCATS NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK060963</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>UL1 RR024131</GrantID>
+                        <Acronym>RR</Acronym>
+                        <Agency>NCRR NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK099924</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK061022</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>UL1 TR000003</GrantID>
+                        <Acronym>TR</Acronym>
+                        <Agency>NCATS NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>UL1 TR000439</GrantID>
+                        <Acronym>TR</Acronym>
+                        <Agency>NCATS NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK060990</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>R01 DK073665</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>UL1 RR029879</GrantID>
+                        <Acronym>RR</Acronym>
+                        <Agency>NCRR NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK061028</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>UL1 TR000433</GrantID>
+                        <Acronym>TR</Acronym>
+                        <Agency>NCATS NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK060984</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK061021</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U24 DK060990</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK060980</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>UL1 TR000424</GrantID>
+                        <Acronym>TR</Acronym>
+                        <Agency>NCATS NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>M01 RR016500</GrantID>
+                        <Acronym>RR</Acronym>
+                        <Agency>NCRR NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK099914</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>P20 GM109036</GrantID>
+                        <Acronym>GM</Acronym>
+                        <Agency>NIGMS NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 DK060902</GrantID>
+                        <Acronym>DK</Acronym>
+                        <Agency>NIDDK NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>UL1 TR002003</GrantID>
+                        <Acronym>TR</Acronym>
+                        <Agency>NCATS NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                </GrantList>
                 <PublicationTypeList>
                     <PublicationType UI="D016428">Journal Article</PublicationType>
+                    <PublicationType UI="D064888">Observational Study</PublicationType>
+                    <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
                 </PublicationTypeList>
                 <ArticleDate DateType="Electronic">
-                    <Year>2024</Year>
-                    <Month>11</Month>
-                    <Day>24</Day>
+                    <Year>2018</Year>
+                    <Month>12</Month>
+                    <Day>10</Day>
                 </ArticleDate>
             </Article>
             <MedlineJournalInfo>
-                <Country>Germany</Country>
-                <MedlineTA>Proteomics</MedlineTA>
-                <NlmUniqueID>101092707</NlmUniqueID>
-                <ISSNLinking>1615-9853</ISSNLinking>
+                <Country>United States</Country>
+                <MedlineTA>Am J Kidney Dis</MedlineTA>
+                <NlmUniqueID>8110075</NlmUniqueID>
+                <ISSNLinking>0272-6386</ISSNLinking>
             </MedlineJournalInfo>
+            <ChemicalList>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D015415">Biomarkers</NameOfSubstance>
+                </Chemical>
+            </ChemicalList>
             <CitationSubset>IM</CitationSubset>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D050197" MajorTopicYN="N">Atherosclerosis</DescriptorName>
+                    <QualifierName UI="Q000209" MajorTopicYN="Y">etiology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D015415" MajorTopicYN="N">Biomarkers</DescriptorName>
+                    <QualifierName UI="Q000097" MajorTopicYN="N">blood</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D015331" MajorTopicYN="N">Cohort Studies</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D007249" MajorTopicYN="N">Inflammation</DescriptorName>
+                    <QualifierName UI="Q000209" MajorTopicYN="Y">etiology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D007677" MajorTopicYN="N">Kidney Function Tests</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D011237" MajorTopicYN="N">Predictive Value of Tests</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D051436" MajorTopicYN="N">Renal Insufficiency, Chronic</DescriptorName>
+                    <QualifierName UI="Q000097" MajorTopicYN="N">blood</QualifierName>
+                    <QualifierName UI="Q000150" MajorTopicYN="Y">complications</QualifierName>
+                    <QualifierName UI="Q000401" MajorTopicYN="N">mortality</QualifierName>
+                    <QualifierName UI="Q000503" MajorTopicYN="Y">physiopathology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D055815" MajorTopicYN="N">Young Adult</DescriptorName>
+                </MeshHeading>
+            </MeshHeadingList>
             <KeywordList Owner="NOTNLM">
-                <Keyword MajorTopicYN="N">cardiovascular disease</Keyword>
-                <Keyword MajorTopicYN="N">chronic kidney disease</Keyword>
-                <Keyword MajorTopicYN="N">differential diagnosis</Keyword>
-                <Keyword MajorTopicYN="N">glomerular disease</Keyword>
+                <Keyword MajorTopicYN="N">C-reactive protein (CRP)</Keyword>
+                <Keyword MajorTopicYN="N">Myocardial infarction (MI)</Keyword>
+                <Keyword MajorTopicYN="N">Pooled Cohort Equation probability (PCEP)</Keyword>
+                <Keyword MajorTopicYN="N">albuminuria</Keyword>
+                <Keyword MajorTopicYN="N">atherosclerosis</Keyword>
+                <Keyword MajorTopicYN="N">atherosclerotic vascular disease (ASVD)</Keyword>
+                <Keyword MajorTopicYN="N">cardiovascular disease (CVD)</Keyword>
+                <Keyword MajorTopicYN="N">chronic kidney function (CKD)</Keyword>
+                <Keyword MajorTopicYN="N">cytokines</Keyword>
+                <Keyword MajorTopicYN="N">estimated glomerular filtration rate (eGFR)</Keyword>
+                <Keyword MajorTopicYN="N">inflammatory biomarkers</Keyword>
+                <Keyword MajorTopicYN="N">kidney function</Keyword>
+                <Keyword MajorTopicYN="N">risk stratification</Keyword>
+                <Keyword MajorTopicYN="N">stroke</Keyword>
             </KeywordList>
+            <InvestigatorList>
+                <Investigator ValidYN="Y">
+                    <LastName>Fink</LastName>
+                    <ForeName>Jeffrey</ForeName>
+                    <Initials>J</Initials>
+                </Investigator>
+                <Investigator ValidYN="Y">
+                    <LastName>Appel</LastName>
+                    <ForeName>Lawrence J</ForeName>
+                    <Initials>LJ</Initials>
+                </Investigator>
+                <Investigator ValidYN="Y">
+                    <LastName>Lash</LastName>
+                    <ForeName>James P</ForeName>
+                    <Initials>JP</Initials>
+                </Investigator>
+            </InvestigatorList>
         </MedlineCitation>
         <PubmedData>
             <History>
-                <PubMedPubDate PubStatus="medline">
-                    <Year>2024</Year>
-                    <Month>11</Month>
-                    <Day>25</Day>
-                    <Hour>1</Hour>
-                    <Minute>10</Minute>
-                </PubMedPubDate>
-                <PubMedPubDate PubStatus="pubmed">
-                    <Year>2024</Year>
-                    <Month>11</Month>
-                    <Day>25</Day>
-                    <Hour>1</Hour>
-                    <Minute>10</Minute>
-                </PubMedPubDate>
-                <PubMedPubDate PubStatus="revised">
-                    <Year>2024</Year>
-                    <Month>10</Month>
-                    <Day>7</Day>
-                </PubMedPubDate>
                 <PubMedPubDate PubStatus="received">
-                    <Year>2024</Year>
-                    <Month>8</Month>
-                    <Day>30</Day>
+                    <Year>2018</Year>
+                    <Month>4</Month>
+                    <Day>2</Day>
                 </PubMedPubDate>
                 <PubMedPubDate PubStatus="accepted">
-                    <Year>2024</Year>
-                    <Month>10</Month>
-                    <Day>8</Day>
+                    <Year>2018</Year>
+                    <Month>9</Month>
+                    <Day>18</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2018</Year>
+                    <Month>12</Month>
+                    <Day>14</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2019</Year>
+                    <Month>12</Month>
+                    <Day>27</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
                 </PubMedPubDate>
                 <PubMedPubDate PubStatus="entrez">
-                    <Year>2024</Year>
-                    <Month>11</Month>
-                    <Day>24</Day>
-                    <Hour>8</Hour>
-                    <Minute>33</Minute>
+                    <Year>2018</Year>
+                    <Month>12</Month>
+                    <Day>15</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pmc-release">
+                    <Year>2020</Year>
+                    <Month>3</Month>
+                    <Day>1</Day>
                 </PubMedPubDate>
             </History>
-            <PublicationStatus>aheadofprint</PublicationStatus>
+            <PublicationStatus>ppublish</PublicationStatus>
             <ArticleIdList>
-                <ArticleId IdType="pubmed">39580683</ArticleId>
-                <ArticleId IdType="doi">10.1002/pmic.202400143</ArticleId>
+                <ArticleId IdType="pubmed">30545708</ArticleId>
+                <ArticleId IdType="mid">NIHMS1516396</ArticleId>
+                <ArticleId IdType="pmc">PMC6812505</ArticleId>
+                <ArticleId IdType="doi">10.1053/j.ajkd.2018.09.012</ArticleId>
+                <ArticleId IdType="pii">S0272-6386(18)31039-4</ArticleId>
             </ArticleIdList>
             <ReferenceList>
-                <Title>References</Title>
                 <Reference>
-                    <Citation>N. Tofte, M. Lindhardt, K. Adamova, et&#xa0;al., &#x201c;Early Detection of Diabetic Kidney Disease by Urinary Proteomics and Subsequent Intervention With Spironolactone to Delay Progression (PRIORITY): A Prospective Observational Study and Embedded Randomised Placebo&#x2010;Controlled Trial,&#x201d; Lancet Diabetes &amp; Endocrinology 8, no. 4 (2020): 301&#x2013;312, https://linkinghub.elsevier.com/retrieve/pii/S2213858720300267.</Citation>
+                    <Citation>Ross R Atherosclerosis--an inflammatory disease. New Eng J Medicine 1999;340(2):115&#x2013;126.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">9887164</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>T. He, M. Mischak, A. L. Clark, et&#xa0;al., &#x201c;Urinary Peptides in Heart Failure: A Link to Molecular Pathophysiology,&#x201d; European Journal of Heart Failure 23 (2021): 1875&#x2013;1887.</Citation>
+                    <Citation>Gupta J, Mitra N, Kanetsky PA et al. Association between albuminuria, kidney function, and inflammatory biomarker profile. Clin J Am Soc Nephrol 2012;71938&#x2013;1946.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3513744</ArticleId>
+                        <ArticleId IdType="pubmed">23024164</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>Z.&#x2010;Y. Zhang, S. Ravassa, E. Nkuipou&#x2010;Kenfack, et&#xa0;al., &#x201c;Novel Urinary Peptidomic Classifier Predicts Incident Heart Failure,&#x201d; Journal of the American Heart Association 6 (2017): e005432.</Citation>
+                    <Citation>Kaptoge S, Seshasai SR, Gao P et al. Inflammatory cytokines and risk of coronary heart disease: new prospective study and updated meta-analysis. Eur Heart J 2014;35(9):578&#x2013;589.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3938862</ArticleId>
+                        <ArticleId IdType="pubmed">24026779</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>D. Wei, J. D. Melgarejo, L. Van Aelst, et&#xa0;al., &#x201c;Prediction of Coronary Artery Disease Using Urinary Proteomics,&#x201d; European Journal of Preventive Cardiology 30 (2023): 1537&#x2013;1546.</Citation>
+                    <Citation>Greenland P, Alpert JS, Beller GA et al. 2010 ACCF/AHA guideline for assessment of cardiovascular risk in asymptomatic adults: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines. J Am Coll Cardiol 2010;56(25):e50&#x2013;103.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">21144964</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>D. M. Good, P. Z&#xfc;rbig, A. Argil&#xe9;s, et&#xa0;al., &#x201c;Naturally Occurring Human Urinary Peptides for Use in Diagnosis of Chronic Kidney Disease,&#x201d; Molecular &amp; Cellular Proteomics 9 (2010): 2424&#x2013;2437.</Citation>
+                    <Citation>Stenvinkel P, Heimburger O, Paultre F et al. Strong association between malnutrition, inflammation, and atherosclerosis in chronic renal failure. Kidney Int 1999;55(5):1899&#x2013;1911.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">10231453</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>A. S. Bannaga, J. Metzger, I. Kyrou, et&#xa0;al., &#x201c;Discovery, Validation and Sequencing of Urinary Peptides for Diagnosis of Liver Fibrosis&#x2014;A Multicentre Study,&#x201d; EBioMedicine 62 (2020): 103083.</Citation>
+                    <Citation>Zoccali C, Tripepi G, Mallamaci F. Dissecting inflammation in ESRD: do cytokines and C-reactive protein have a complementary prognostic value for mortality in dialysis patients? J Am Soc Nephrol 2006;17(12 Suppl 3):S169&#x2013;S173.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">17130257</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>L. Catanese, J. Siwy, E. Mavrogeorgis, et&#xa0;al., &#x201c;A Novel Urinary Proteomics Classifier for Non&#x2010;Invasive Evaluation of Interstitial Fibrosis and Tubular Atrophy in Chronic Kidney Disease,&#x201d; Proteomes 9 (2021): 32.</Citation>
+                    <Citation>Knight EL, Rimm EB, Pai JK et al. Kidney dysfunction, inflammation, and coronary events: a prospective study. J Am Soc Nephrol 2004;15(7):1897&#x2013;1903.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">15213279</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>T. He, J. D. Melgarejo, A. L. Clark, et&#xa0;al., &#x201c;Serum and Urinary Biomarkers of Collagen Type&#x2010;I Turnover Predict Prognosis in Patients With Heart Failure,&#x201d; Clinical and Translational Medicine 11 (2021): e267.</Citation>
+                    <Citation>Goff DC Jr., Lloyd-Jones DM, Bennett G et al. 2013 ACC/AHA guideline on the assessment of cardiovascular risk: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. Circulation 2014;129(25 Suppl 2):S49&#x2013;S73.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">24222018</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>T. S. Ahluwalia, T. K. E. R&#xf6;nkk&#xf6;, M. K. Eickhoff, et&#xa0;al., &#x201c;Randomized Trial of SGLT2 Inhibitor Identifies Target Proteins in Diabetic Kidney Disease,&#x201d; Kidney International Reports 9 (2024): 334&#x2013;346.</Citation>
+                    <Citation>Feldman HI, Appel LJ, Chertow GM et al. The Chronic Renal Insufficiency Cohort (CRIC) Study: Design and Methods. J Am Soc Nephrol 2003;14(7 Suppl 2):S148&#x2013;S153.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">12819321</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>T. E. Long, O. S. Indridason, R. Palsson, et&#xa0;al., &#x201c;Defining New Reference Intervals for Serum Free Light Chains in Individuals With Chronic Kidney Disease: Results of the iStopMM Study,&#x201d; Blood Cancer Journal 12 (2022): 133.</Citation>
+                    <Citation>Lash JP, Go AS, Appel LJ et al. Chronic Renal Insufficiency Cohort (CRIC) Study: baseline characteristics and associations with kidney function. Clin J Am Soc Nephrol 2009;4(8):1302&#x2013;1311.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC2723966</ArticleId>
+                        <ArticleId IdType="pubmed">19541818</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>E. Hoxha, L. Reinhard, and R. A. K. Stahl, &#x201c;Membranous Nephropathy: New Pathogenic Mechanisms and Their Clinical Implications,&#x201d; Nature Reviews Nephrology 18 (2022): 466&#x2013;478.</Citation>
+                    <Citation>Amdur RL, Feldman HI, Gupta J et al. Inflammation and Progression of CKD: The CRIC Study. Clin J Am Soc Nephrol 2016;11(9):1546&#x2013;1556.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5012490</ArticleId>
+                        <ArticleId IdType="pubmed">27340285</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>E. B. Caparali, V. De Gregorio, and M. Barua, &#x201c;Genetic Causes of Nephrotic Syndrome and Focal and Segmental Glomerulosclerosis,&#x201d; Advances in Kidney Disease and Health 31 (2024): 309&#x2013;316.</Citation>
+                    <Citation>Stenvinkel P, Carrero JJ, Axelsson J, Lindholm B, Heimburger O, Massy Z. Emerging biomarkers for evaluating cardiovascular risk in the chronic kidney disease patient: how do new pieces fit into the uremic puzzle? Clin J Am Soc Nephrol 2008;3(2):505&#x2013;521.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6631093</ArticleId>
+                        <ArticleId IdType="pubmed">18184879</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>F. E. Hengel, S. Dehde, M. Lass&#xe9;, et&#xa0;al., &#x201c;Autoantibodies Targeting Nephrin in Podocytopathies,&#x201d; New England Journal of Medicine 391, no. 5 (2024): 422&#x2013;433.</Citation>
+                    <Citation>Kremers WK. Concordance for Survival Time Data Including Time-Dependent Covariates Accounting for Ties in Predictor and Time Technical Report. 2008. Mayo Clinic College of Medicine.</Citation>
                 </Reference>
                 <Reference>
-                    <Citation>J. Siwy, P. Z&#xfc;rbig, A. Argiles, et&#xa0;al., &#x201c;Noninvasive Diagnosis of Chronic Kidney Diseases Using Urinary Proteome Analysis,&#x201d; Nephrology, Dialysis, Transplantation 32 (2017): 2079&#x2013;2089.</Citation>
+                    <Citation>Gonen M. Analyzing receiver operating characteristic curves with SAS. 2007. Cary, NC, SAS Institute Inc.</Citation>
                 </Reference>
                 <Reference>
-                    <Citation>M. Rudnicki, J. Siwy, R. Wendt, et&#xa0;al., &#x201c;Urine Proteomics for Prediction of Disease Progression in Patients With IgA Nephropathy,&#x201d; Nephrology, Dialysis, Transplantation 37 (2021): 42&#x2013;52.</Citation>
+                    <Citation>Sung KC, Ryu S, Lee JY et al. Urine Albumin/Creatinine Ratio Below 30 mg/g is a Predictor of Incident Hypertension and Cardiovascular Mortality. J Am Heart Assoc 2016;5(9). e003245.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5079007</ArticleId>
+                        <ArticleId IdType="pubmed">27625343</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>J. Savige, F. Ariani, F. Mari, et&#xa0;al., &#x201c;Expert Consensus Guidelines for the Genetic Diagnosis of Alport Syndrome,&#x201d; Pediatric Nephrology 34 (2019): 1175&#x2013;1189.</Citation>
+                    <Citation>Fine JP, Gray RJ. A proportional hazards model for the subdistribution of a competing risk. J Am Stat Assoc 1999;94496&#x2013;504.</Citation>
                 </Reference>
                 <Reference>
-                    <Citation>M. A. Jaimes Campos, E. Mavrogeorgis, A. Latosinska, et&#xa0;al., &#x201c;Urinary Peptide Analysis to Predict the Response to Blood Pressure Medication,&#x201d; Nephrology, Dialysis, Transplantation 39 (2024): 873&#x2013;883.</Citation>
+                    <Citation>Tonelli M, Wiebe N, Culleton B et al. Chronic kidney disease and mortality risk: a systematic review. J Am Soc Nephrol 2006;17(7):2034&#x2013;2047.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">16738019</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>P. Magalh&#xe3;es, M. Pejchinovski, K. Markoska, et&#xa0;al., &#x201c;Association of Kidney Fibrosis With Urinary Peptides: A Path towards Non&#x2010;Invasive Liquid Biopsies?,&#x201d; Scientific Reports 7 (2017): 16915.</Citation>
+                    <Citation>Manjunath G, Tighiouart H, Ibrahim H et al. Level of kidney function as a risk factor for atherosclerotic cardiovascular outcomes in the community. J Am Coll Cardiol 2003;41(1):47&#x2013;55.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">12570944</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>E. Mavrogeorgis, T. He, H. Mischak, et&#xa0;al., &#x201c;Urinary Peptidomic Liquid Biopsy for Non&#x2010;Invasive Differential Diagnosis of Chronic Kidney Disease,&#x201d; Nephrology, Dialysis, Transplantation 39 (2024): 453&#x2013;462.</Citation>
+                    <Citation>Baber U, Stone GW, Weisz G et al. Coronary plaque composition, morphology, and outcomes in patients with and without chronic kidney disease presenting with acute coronary syndromes. JACC Cardiovasc Imaging 2012;5(3 Suppl):S53&#x2013;S61.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">22421231</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>B. Peters, J. Beige, J. Siwy, et&#xa0;al., &#x201c;Dynamics of Urine Proteomics Biomarker and Disease Progression in Patients With IgA Nephropathy,&#x201d; Nephrology Dialysis Transplantation 38 (2023): 2826&#x2013;2834.</Citation>
+                    <Citation>Ponda MP, Barash I, Feig JE, Fisher EA, Skolnik EY. Moderate kidney disease inhibits atherosclerosis regression. Atherosclerosis 2010;210(1):57&#x2013;62.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3175796</ArticleId>
+                        <ArticleId IdType="pubmed">19931862</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>P. F. Zipfel, C. Skerka, Q. Chen, et&#xa0;al., &#x201c;The Role of Complement in C3 Glomerulopathy,&#x201d; Molecular Immunology 67 (2015): 21&#x2013;30.</Citation>
+                    <Citation>Suganuma E, Zuo Y, Ayabe N et al. Antiatherogenic effects of angiotensin receptor antagonism in mild renal dysfunction. J Am Soc Nephrol 2006;17(2):433&#x2013;441.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">16371432</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>R. Wendt, J. Siwy, T. He, et&#xa0;al., &#x201c;Molecular Mapping of Urinary Complement Peptides in Kidney Diseases,&#x201d; Proteomes 9, no. 4 (2021): 49.</Citation>
+                    <Citation>Menon V, Greene T, Wang X et al. C-reactive protein and albumin as predictors of all-cause and cardiovascular mortality in chronic kidney disease. Kidney Int 2005;68(2):766&#x2013;772.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">16014054</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>D. S. Siscovick, L. G. Ekelund, J. L. Johnson, Y. Truong, and A. Adler, &#x201c;Sensitivity of Exercise Electrocardiography for Acute Cardiac Events During Moderate and Strenuous Physical Activity. The Lipid Research Clinics Coronary Primary Prevention Trial,&#x201d; Archives of Internal Medicine 151 (1991): 325&#x2013;330.</Citation>
+                    <Citation>Beddhu S, Kaysen GA, Yan G et al. Association of serum albumin and atherosclerosis in chronic hemodialysis patients. Am J Kidney Dis 2002;40(4):721&#x2013;727.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">12324906</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>SCORE2 Working Group and ESC Cardiovascular Risk Collaboration. &#x201c;SCORE2 Risk Prediction Algorithms: New Models to Estimate 10&#x2010;Year Risk of Cardiovascular Disease in Europe,&#x201d; European Heart Journal 42 (2021): 2439&#x2013;2454.</Citation>
+                    <Citation>Nelson JJ, Liao D, Sharrett AR et al. Serum albumin level as a predictor of incident coronary heart disease: the Atherosclerosis Risk in Communities (ARIC) study. Am J Epidemiol 2000;151(5):468&#x2013;477.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">10707915</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>SCORE2&#x2010;OP Working Group and ESC Cardiovascular Risk Collaboration. &#x201c;SCORE2&#x2010;OP Risk Prediction Algorithms: Estimating Incident Cardiovascular Event Risk in Older Persons in Four Geographical Risk Regions,&#x201d; European Heart Journal 42 (2021): 2455&#x2013;2467.</Citation>
+                    <Citation>Kaptoge S, White IR, Thompson SG et al. Associations of plasma fibrinogen levels with established cardiovascular disease risk factors, inflammatory markers, and other characteristics: individual participant meta-analysis of 154,211 adults in 31 prospective studies: the fibrinogen studies collaboration. Am J Epidemiol 2007;166(8):867&#x2013;879.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">17785713</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>C. Delles, E. Schiffer, C. von Zur Muhlen, et&#xa0;al., &#x201c;Urinary Proteomic Diagnosis of Coronary Artery Disease: Identification and Clinical Validation in 623 Individuals,&#x201d; Journal of Hypertension 28 (2010): 2316&#x2013;2322.</Citation>
+                    <Citation>Stouthard JM, Levi M, Hack CE et al. Interleukin-6 stimulates coagulation, not fibrinolysis, in humans. Thromb Haemost 1996;76(5):738&#x2013;742.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">8950783</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>U. Neisius, T. Koeck, H. Mischak, et&#xa0;al., &#x201c;Urine Proteomics in the Diagnosis of Stable Angina,&#x201d; BMC Cardiovascular Disorders [Electronic Resource] 16 (2016): 70.</Citation>
+                    <Citation>Seino Y, Ikeda U, Ikeda M et al. Interleukin 6 gene transcripts are expressed in human atherosclerotic lesions. Cytokine 1994;6(1):87&#x2013;91.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">8003639</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>Z. Zhang, J. A. Staessen, L. Thijs, et&#xa0;al., &#x201c;Left Ventricular Diastolic Function in Relation to the Urinary Proteome: A Proof&#x2010;of&#x2010;Concept Study in a General Population,&#x201d; International Journal of Cardiology 176 (2014): 158&#x2013;165.</Citation>
+                    <Citation>Tintut Y, Patel J, Parhami F, Demer LL. Tumor necrosis factor-alpha promotes in vitro calcification of vascular cells via the cAMP pathway. Circulation 2000; 102(21):2636&#x2013;2642.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">11085968</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>Z.&#x2010;Y. Zhang, L. Thijs, T. Petit, et&#xa0;al., &#x201c;Urinary Proteome and Systolic Blood Pressure as Predictors of 5&#x2010;Year Cardiovascular and Cardiac Outcomes in a General Population,&#x201d; Hypertension 66 (2015): 52&#x2013;60.</Citation>
+                    <Citation>Sarnak MJ, Levey AS, Schoolwerth AC et al. Kidney disease as a risk factor for development of cardiovascular disease: a statement from the American Heart Association Councils on Kidney in Cardiovascular Disease, High Blood Pressure Research, Clinical Cardiology, and Epidemiology and Prevention. Circulation 2003;108(17):2154&#x2013;2169.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">14581387</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>Authors/Task Force Members. T. A. McDonagh, M. Metra, M. Adamo, et&#xa0;al., &#x201c;2023 Focused Update of the 2021 ESC Guidelines for the Diagnosis and Treatment of Acute and Chronic Heart Failure: Developed by the Task Force for the Diagnosis and Treatment of Acute and Chronic Heart Failure of the European Society of Cardiology (ESC) With the Special Contribution of the Heart Failure Association (HFA) of the ESC,&#x201d; European Journal of Heart Failure 26 (2024): 5&#x2013;17.</Citation>
+                    <Citation>Chobanian AV, Bakris GL, Black HR et al. The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure: the JNC 7 report. JAMA 2003;289(19):2560&#x2013;2572.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">12748199</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>T. A. McDonagh, M. Metra, M. Adamo, et&#xa0;al., &#x201c;2021 ESC Guidelines for the Diagnosis and Treatment of Acute and Chronic Heart Failure,&#x201d; European Heart Journal 42 (2021): 3599&#x2013;3726.</Citation>
+                    <Citation>Duncan BB, Schmidt MI, Pankow JS et al. Low-grade systemic inflammation and the development of type 2 diabetes: the atherosclerosis risk in communities study. Diabetes 2003;52(7):1799&#x2013;1805.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">12829649</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>J. J. V. McMurray and M. Packer, &#x201c;How Should We Sequence the Treatments for Heart Failure and a Reduced Ejection Fraction?: A Redefinition of Evidence&#x2010;Based Medicine,&#x201d; Circulation 143 (2021): 875&#x2013;877.</Citation>
+                    <Citation>Conen D, Ridker PM, Everett BM et al. A multimarker approach to assess the influence of inflammation on the incidence of atrial fibrillation in women. Eur Heart J 2010;31(14):1730&#x2013;1736.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC2903714</ArticleId>
+                        <ArticleId IdType="pubmed">20501475</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>C. S. P. Lam, K. F. Docherty, J. E. Ho, J. J. V. McMurray, P. L. Myhre, and T. Omland, &#x201c;Recent Successes in Heart Failure Treatment,&#x201d; Nature Medicine 29 (2023): 2424&#x2013;2437.</Citation>
+                    <Citation>Schlackow I, Kent S, Herrington W et al. A policy model of cardiovascular disease in moderate-to-advanced chronic kidney disease. Heart 2017;103(23):1880&#x2013;1890.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5749372</ArticleId>
+                        <ArticleId IdType="pubmed">28780579</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>Y. Wu, H. Wang, Z. Li, et&#xa0;al., &#x201c;Subtypes Identification on Heart Failure With Preserved Ejection Fraction via Network Enhancement Fusion Using Multi&#x2010;Omics Data,&#x201d; Computational and Structural Biotechnology Journal 19 (2021): 1567&#x2013;1578.</Citation>
+                    <Citation>Muntner P, Colantonio LD, Cushman M et al. Validation of the atherosclerotic cardiovascular disease Pooled Cohort risk equations. JAMA 2014;311(14):1406&#x2013;1415.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC4189930</ArticleId>
+                        <ArticleId IdType="pubmed">24682252</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>M. A. Jaimes Campos, I. And&#xfa;jar, F. Keller, et&#xa0;al., &#x201c;Prognosis and Personalized In Silico Prediction of Treatment Efficacy in Cardiovascular and Chronic Kidney Disease: A Proof&#x2010;of&#x2010;Concept Study,&#x201d; Pharmaceuticals (Basel) 16 (2023): 1298.</Citation>
+                    <Citation>Pencina MJ, Navar-Boggan AM, D'Agostino RB Sr., et al. Application of new cholesterol guidelines to a population-based sample. N Engl J Med 2014;370(15):1422&#x2013;1431.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">24645848</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>A. J. Buckler, D. Marlevi, N. T. Skenteris, et&#xa0;al., &#x201c;In Silico Model of Atherosclerosis With Individual Patient Calibration to Enable Precision Medicine for Cardiovascular Disease,&#x201d; Computers in Biology and Medicine 152 (2023): 106364.</Citation>
+                    <Citation>Snaedal S, Heimburger O, Qureshi AR et al. Comorbidity and acute clinical events as determinants of C-reactive protein variation in hemodialysis patients: implications for patient survival. Am J Kidney Dis 2009;53(6):1024&#x2013;1033.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">19394732</ArticleId>
+                    </ArticleIdList>
                 </Reference>
                 <Reference>
-                    <Citation>J. Powell and X. Li, &#x201c;Integrated, Data&#x2010;Driven Health Management: A Step Closer to Personalized and Predictive Healthcare,&#x201d; Cell Systems 13 (2022): 201&#x2013;203.</Citation>
-                </Reference>
-                <Reference>
-                    <Citation>F. Marabita, T. James, A. Karhu, et&#xa0;al., &#x201c;Multiomics and Digital Monitoring During Lifestyle Changes Reveal Independent Dimensions of human Biology and Health,&#x201d; Cell Systems 13 (2022): 241&#x2013;255.e7.</Citation>
+                    <Citation>Kimmel PL, Phillips TM, Simmens SJ et al. Immunologic function and survival in hemodialysis patients. Kidney International 1998;54(1):236&#x2013;244.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6146918</ArticleId>
+                        <ArticleId IdType="pubmed">9648084</ArticleId>
+                    </ArticleIdList>
                 </Reference>
             </ReferenceList>
         </PubmedData>

@@ -1,7 +1,6 @@
 from Bio import Entrez
 import xml.etree.ElementTree as ET
 import deepl
-from datetime import date
 
 
 Entrez.email = "example@gmail.com"
@@ -9,11 +8,14 @@ Entrez.email = "example@gmail.com"
 def main():
     keyword = '((New England Journal of Medicine[Journal] OR BMJ[Journal] OR The Lancet[Journal] OR JAMA[Journal] OR Annals of Internal Medicine[Journal] OR Kidney International[Journal] OR Journal of the American Society of Nephrology[Journal] OR American Journal of Kidney Diseases[Journal] OR Clinical Journal of the American Society of Nephrology[Journal] OR Nephrology Dialysis Transplantation[Journal])) AND (((CVD) AND (egfr) AND ((slope) OR (change) OR (decline) OR (increase)) ) NOT (surrogate))'
     pmids = search_pmids(keyword,max_results=10000)
-    root = fetch_article(pmid=pmids[0])
+    root = fetch_article(pmid=pmids[10])
     articule_title = extract_article_title(root)
     jounal_title = extract_journal_title(root)
+    pub_year = extract_pubdate(root)
+    abst = extract_abst(root)
     
-    print(articule_title, jounal_title)
+    print(pub_year,articule_title, jounal_title)
+    print(abst)
     
 
 def search_pmids(keyword: str, max_results: int=10) -> list[str]:
@@ -43,8 +45,8 @@ def fetch_article(pmid: str) -> ET.Element:
     handle = Entrez.efetch(db="pubmed", id=pmid, retmode="xml")
     xml = handle.read()
     # xmlの構造を見てみたい
-    # with open('test_result.xml', 'wb') as f:
-    #     f.write(xml)
+    with open('test_result.xml', 'wb') as f:
+        f.write(xml)
     
     root = ET.fromstring(xml)
     
@@ -93,6 +95,31 @@ def extract_journal_title(root: ET.Element) -> str:
     )
     
     return Title
+
+
+def extract_pubdate(root: ET.Element) -> str:
+    """論文の出版された年を抽出する関数
+
+    Args:
+        root (ET.Element): XML形式データの根要素
+
+    Returns:
+        str: 論文が出版された年
+    """
+    
+    PubDate = (
+        root
+        .find("PubmedArticle")
+        .find("MedlineCitation")
+        .find("Article")
+        .find("Journal")
+        .find("JournalIssue")
+        .find("PubDate")
+    )
+    
+    Year = PubDate.find("Year").text
+
+    return Year
     
 
 def extract_abst(root: ET.Element) -> str:
@@ -105,19 +132,21 @@ def extract_abst(root: ET.Element) -> str:
         str: 論文の英文アブスト
     """
     
-    AbstractText = (
+    AbstractText_list = (
         root
         .find("PubmedArticle")
         .find("MedlineCitation")
         .find("Article")
         .find("Abstract")
-        .find("AbstractText")
-        .text
+        .findall("AbstractText")
     )
+    
+    AbstractText_str = [abst.text for abst in AbstractText_list]
+    abst_text_joined = "".join(AbstractText_str)
         
-    return AbstractText
+    return abst_text_joined
 
-def translate_to_ja(abst: str) -> str:
+def translate_into_ja(abst: str) -> str:
     """アブストを日本語に要約する関数
 
     Args:
