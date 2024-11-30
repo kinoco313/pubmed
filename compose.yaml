@@ -4,3 +4,5 @@ services:
     volumes:
       - ./dev:/usr/dev
     tty: true
+    env_file:
+      - .env
