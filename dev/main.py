@@ -20,34 +20,14 @@ logger.addHandler(s_handler)
 
 def main():
     # キーワードからPMIDを取得
-    pmids = search_pmids(keyword, max_results=2)
+    pmids = search_pmids(keyword, max_results=20)
 
     # 論文情報をまとめて取得
     articles = fetch_articles(pmids)
-
-    # ワークブックを作成
-    wb = Workbook()
-    ws = wb.active
-    header = ["PMID", "Title", "Journal", "PubYear", "Objective", "Participants", "Exposure", "Comparison", "Outcome", "Results"]
-    ws.append(header)
-
-    # # データをExcelに書き込む
-    # for article in articles:
-    #     ws.append([article["pmid"], article["title"], article["journal"], article["pub_year"], article["abstract"]])
-
-    # # Excelの書式設定
-    # alignment = Alignment(horizontal="left", vertical="center", wrap_text=True)
-    # for row in ws.iter_rows(min_row=1, max_row=100, max_col=len(header)):
-    #     for cell in row:
-    #         cell.alignment = alignment
-
-    # column_width = {"A": 10, "B": 50, "C": 50, "D": 10, "E": 100, "F": 100}
-    # for col, width in column_width.items():
-    #     ws.column_dimensions[col].width = width
-
-    # file_path = "evidence_table.xlsx"
-    # wb.save(file_path)
     
+    # エクセルファイルとして保存
+    save_evidence_table(articles)
+
 
 def search_pmids(keyword: str, max_results: int = 10) -> list[str]:
     """キーワードに合致する論文のPMIDをリストとして返す関数
@@ -62,7 +42,7 @@ def search_pmids(keyword: str, max_results: int = 10) -> list[str]:
     stream = Entrez.esearch(db="pubmed", term=keyword, retmax=str(max_results))
     record = Entrez.read(stream)
     # 取得できているか確認
-    logger.info(f"{len(record["IdList"])}件のPMIDを取得")
+    logger.info(f"{len(record["IdList"])}件のPMIDを取得しました!")
     return record['IdList']
 
 def fetch_articles(pmids: list[str]) -> list[dict]:
@@ -77,7 +57,7 @@ def fetch_articles(pmids: list[str]) -> list[dict]:
     handle = Entrez.efetch(db="pubmed", id=",".join(pmids), retmode="xml")
     xml = handle.read()
     root = ET.fromstring(xml)
-    logger.info("XMLデータの取得に成功")
+    logger.info("XMLデータの取得に成功しました!")
 
     articles = []
     for article in root.findall(".//PubmedArticle"):
@@ -87,13 +67,12 @@ def fetch_articles(pmids: list[str]) -> list[dict]:
         pub_year = article.findtext(".//PubDate/Year")
         summary_dic = {"PMID": pmid, "Title": title, "Journal": journal, "PubYear": pub_year}
         abstract = "".join([abst.text for abst in article.findall(".//AbstractText")])
-        # 辞書形式でさらに要約されたアブストを結合    
+        
+        # 辞書形式でさらに要約されたアブストを結合
+        logger.info(f"{title[:10]}...を要約しています・・・")    
         summary_dic |= summarise_abst(abstract)
-        
         articles.append(summary_dic)
-        
-    logger.info("論文情報の取得を完了")
-        
+            
     return articles
 
 def summarise_abst(abst: str) -> dict[str, str]:
@@ -137,6 +116,37 @@ def summarise_abst(abst: str) -> dict[str, str]:
     res = completion.choices[0].message.content
     json_str = res[7:-3]
     return json.loads(json_str)
+
+def save_evidence_table(articles: list[dict]) -> None:
+    wb = Workbook()
+    ws = wb.active
+    header = ["PMID", "Title", "Journal", "PubYear", "Objective", "Participants", "Exposure", "Comparison", "Outcome", "Results"]
+    ws.append(header)
+
+    # データをExcelに書き込む
+    for article in articles:
+        tmp = []
+        for _, value in article.items():
+            tmp.append(value)
+        ws.append(tmp)
+
+    # Excelの書式設定
+    alignment = Alignment(horizontal="left", vertical="center", wrap_text=True)
+    for row in ws.iter_rows(min_row=1, max_row=100, max_col=len(header)):
+        for cell in row:
+            cell.alignment = alignment
+
+    column_width = {"A": 10, "B": 50, "C": 50, "D": 10, "E": 100, "F": 100, "G":100, "H":100, "I":100, 'J':100}
+    for col, width in column_width.items():
+        ws.column_dimensions[col].width = width
+
+    file_path = "evidence_table.xlsx"
+    try:
+        wb.save(file_path)
+        logger.info("ファイルの保存が完了しました!")
+    except PermissionError:
+        logger.exception("ファイルを閉じてください")
+
 
 if __name__ == "__main__":
     main()
